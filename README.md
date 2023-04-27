@@ -29,4 +29,4 @@ POST TWEET-
 
 API : localhost:3000/api/v1/tweets
 
-https://www.notion.so/Requirements-and-Demo-7a33a04aa44e4c7a8bb08a4673b3d034?pvs=4#959171fd5a6540fea74e8a3ac3ae6e6d
+![](PUBLIC_IMAGES/Screenshot%202023-04-27%20at%205.29.35%20PM.png)
