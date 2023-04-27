@@ -1,4 +1,4 @@
-const Tweet = require("../model/tweet");
+import Tweet from "../model/tweet.js";
 class TweetRepository {
   async create(data) {
     try {
@@ -16,14 +16,7 @@ class TweetRepository {
       console.log(error);
     }
   }
-  async update(tweetId, data) {
-    try {
-      const tweet = await Tweet.findByIdAndUpdate(tweetId, data, { new: true });
-      return tweet;
-    } catch (error) {
-      console.log(error);
-    }
-  }
+
   async getwithComments(id) {
     try {
       const tweet = await Tweet.findById(id)
@@ -54,4 +47,4 @@ class TweetRepository {
     }
   }
 }
-module.exports = TweetRepository;
+export default TweetRepository;
