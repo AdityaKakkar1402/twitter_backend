@@ -30,3 +30,5 @@ POST TWEET-
 API : localhost:3000/api/v1/tweets
 
 ![](PUBLIC_IMAGES/Screenshot%202023-04-27%20at%205.29.35%20PM.png)
+![](PUBLIC_IMAGES/Screenshot%202023-04-27%20at%205.31.24%20PM.png)
+![](PUBLIC_IMAGES/Screenshot%202023-04-27%20at%205.31.16%20PM.png)
