@@ -22,6 +22,21 @@
 - hashtag
 ```
 
+**SETUP**
+
+make .env file
+
+PORT=3000
+SECRETORKEY='<>'
+AWS_SECRET_ACCESS_KEY=<>
+ACCESS_KEY_ID=<>
+AWS_REGION='<>'
+BUCKET_NAME='<>'
+
+npm i
+
+npm start
+
 **POST API TWITTER**
 
 API : _localhost:3000/api/v1/tweets_
