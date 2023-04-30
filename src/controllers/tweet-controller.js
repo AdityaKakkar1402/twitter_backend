@@ -2,6 +2,7 @@ import TweetService from "../services/tweet-service.js";
 import upload from "../config/file-upload.js";
 
 const singleUploader = upload.single("image");
+//const singleUploader = upload.array("image",10);
 
 const tweetService = new TweetService();
 export const createTweet = async (req, res) => {
