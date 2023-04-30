@@ -1,6 +1,6 @@
 import express from "express";
 import bodyParser from "body-parser";
-import PORT from "../src/config/server.js";
+import { PORT } from "../src/config/server.js";
 import { connect } from "./config/database.js";
 
 import apiRoutes from "./routes/index.js";
